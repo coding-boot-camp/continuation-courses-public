@@ -16,8 +16,6 @@ Successful strategies for completing the Continuation Course include the followi
 
 * Find a partner, group, or team to learn with; this might be a fellow student from boot camp, a colleague, or a friend. Even if your partner is working on another course or topic, having regular check-ins can be inspiring and beneficial. 
 
-* Make sure you’ve joined the [Boot Camp Network Slack workspace](https://edx-bcnslackchannel.splashthat.com/) to make connections with boot camp grads all over the world. Find the Java Continuation Course channel (`#﻿java-cc-peer-support`), post any questions you might have to get help from fellow graduates, and post answers to assist new members of your developer network.
-
 * Create a learning environment that is conducive to studying. Places with great WiFi, few distractions, and quiet (or you can use headphones) are ideal.
 
 * Prepare for obstacles by thinking in advance about what you will do if you feel stuck or discouraged. As always, you will have the entire internet at your fingertips, including tons of documentation, message boards, and coding communities.
