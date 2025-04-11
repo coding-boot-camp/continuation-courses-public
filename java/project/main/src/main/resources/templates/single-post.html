@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+<head>
+    <title>Single-post</title>
+</head>
+
+<body>
+
+<div layout:fragment="content">
+
+    <div th:if="${notice}" class="flash-message">
+        <h3>[[${notice}]]</h3>
+    </div>
+
+    <div th:insert="fragments/post-fragment :: post-fragment"></div>
+
+
+    <form th:if="${loggedIn}" action="#" th:action="@{/comments}" th:object="${comment}" method="post" class="comment-form">
+        <div>
+            <input type="hidden" th:value="${post.id}" name="postId"/>
+            <textarea name="comment-body" th:field="*{commentText}"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">add comment</button>
+            <button type="button" class="upvote-btn">upvote</button>
+        </div>
+    </form>
+
+    <div class="comments">
+        <div th:insert="fragments/comment-fragment :: comment-fragment"></div>
+    </div>
+    <div th:if="${loggedIn}">
+        <script src="/js/upvote.js"></script>
+    </div>
+
+</div>
+
+</body>
+</html>

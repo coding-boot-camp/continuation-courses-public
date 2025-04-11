@@ -1,0 +1,37 @@
+[
+    {
+        "username": "A. Einstein",
+        "createdAt": 1502293460904,
+        "thought": "It’s not that I’m so smart, it’s just that I stay with problems longer."
+    },
+    {
+        "username": "Steph Curry",
+        "createdAt": 1601093467954,
+        "thought": "Success is not an accident, success is a choice."
+    },
+    {
+        "username": "Joyce Meyer",
+        "createdAt": 1602003067054,
+        "thought": "If you are facing a new challenge or being asked to do something that you have never done before don’t be afraid to step out. You have more capability than you think you do but you will never see it unless you place a demand on yourself for more."
+    },
+    {
+        "username": "Voltaire",
+        "createdAt": 1602003407954,
+        "thought": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed no hope at all."
+    },
+    {
+        "username": "D. Carnegie",
+        "createdAt": 1602000067954,
+        "thought": "No problem can withstand the assault of sustained thinking."
+    },
+    {
+        "username": "Harry Golden",
+        "createdAt": 1601003667954,
+        "thought": " The only thing that overcomes hard luck is hard work."
+    },
+    {
+        "username": "Ray Davis",
+        "createdAt": 1602303867954,
+        "thought": "A challenge only becomes an obstacle when you bow to it."
+    }
+]

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title layout:title-pattern="$CONTENT_TITLE - $LAYOUT_TITLE">Just Tech News</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<section th:each="comment : ${commentList}" class="comment" th:fragment="comment-fragment">
+    <div class="meta">
+        [[${post.userName}]] on
+        <span th:text="${#dates.format(post.postedAt, 'MM-dd-YY')}"></span>
+    </div>
+    <div class="text">
+        [[${comment.commentText}]]
+    </div>
+</section>
+
+</body>
